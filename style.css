@@ -137,6 +137,7 @@
     height: 100%;
     width: 36px;
     background-color: var(--box-bg);
+    font-size: 20px;
 }
 #zoom-out,#undo{
     border-top-left-radius: 10px;
@@ -159,6 +160,7 @@
 #ur-div>button{
     width: 36px;
     background-color: var(--box-bg);
+    font-size: 20px;
 }
 #footer-right{
     margin-right: 20px;
@@ -179,6 +181,7 @@
     border-radius: 8px;
     border: none;
     background-color: var(--box-bg);
+    font-size: 20px;
 }
 #bottom button:hover{
     background-color: var(--light-theme);
