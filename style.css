@@ -1,0 +1,185 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+:root{
+    --hover: #7a7a7a;
+    --icon_num: #b8b8b8;
+    --grey-border: rgb(196, 196, 196);
+    --theme: #6965db;
+    --light-theme: #e3e2fe;
+    --text-color: #7b7b7b;
+    --box-bg: #ececf4;
+}
+#root{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    position: relative;
+
+
+}
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 15px;
+    position: absolute;
+    width:100vw;
+}
+#top button:hover{
+    background-color: var(--light-theme);
+}
+#menu{
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+}
+#tools{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    padding: 8px 15px;
+    gap:10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px lightgray;
+
+}
+#tools button{
+    background-color:white;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+#tools div{
+    position: relative;
+}
+#tools div>span{
+    position: absolute;
+    font-size: 10px;
+    bottom:0px;
+    right:5px;
+}
+#canvas{
+    /* background-color: yellow;     */
+}
+
+.pencilActive{
+
+    background-color: blue !important;
+    color:white;
+}
+
+.header-right{
+    display: flex;
+    margin-right: 30px;
+    gap:10px;
+}
+.header-right>button{
+    border-radius: 10px;
+    border: none;
+}
+#collaboration{
+    width: 36px;
+    height: 36px;
+    background-color: var(--theme);
+    color:white;
+}
+#library{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding:10px;
+    width:fit-content;
+    background-color:var(--box-bg) ;
+    gap:10px;
+}
+#library>span{
+    color: var(--text-color);
+    font-size: 12px;
+}
+.vertical_line{
+    border-left: 1px solid rgb(233, 227, 229);
+    height: 20px;
+}
+
+#bottom{
+    width: 100vw;
+    position: fixed;
+    bottom:0px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+#footer-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    margin-left: 10px;
+}
+#zoom{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    height: 36px;
+    background-color: var(--box-bg);
+    border-radius: 10px;
+
+}
+#zoom button{
+    height: 100%;
+    width: 36px;
+    background-color: var(--box-bg);
+}
+#zoom-out,#undo{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+#zoom-in,#redo{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+#ur-div{
+    display: flex;
+    border-radius: 10px;
+    height: 36px;
+    background-color: var(--box-bg);
+    gap:15px;
+}
+#ur-div>button{
+    width: 36px;
+    background-color: var(--box-bg);
+}
+#footer-right{
+    margin-right: 20px;
+    display: flex;
+    gap:10px;
+}
+
+#footer-right button{
+    width: 36px;
+    height: 36px;
+}
+#encrypt{
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+#help{
+    border-radius: 8px;
+    border: none;
+    background-color: var(--box-bg);
+}
+#bottom button:hover{
+    background-color: var(--light-theme);
+}
